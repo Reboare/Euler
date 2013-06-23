@@ -1,6 +1,3 @@
-x = 0
-count = 0
-for num in range(0,101):
-    x = x + num ** 2
-    count = count + num
-print(count**2-x) 
+if __name__ == "__main__":
+    var = range(1,101)
+    print(sum(var)**2 - sum([i*i for i in var]))
